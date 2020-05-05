@@ -3,9 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyDJAnsxCdesowbtjgDCR-nI5h8znrf51xg',
+    authDomain: 'firechat-6984d.firebaseapp.com',
+    databaseURL: 'https://firechat-6984d.firebaseio.com',
+    projectId: 'firechat-6984d',
+    storageBucket: 'firechat-6984d.appspot.com',
+    messagingSenderId: '981309350924',
+    appId: "1:981309350924:web:10ad5301343bf952c9ba29",
+    measurementId: "G-HKG9M4TPY9"
+  }
 };
-
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
